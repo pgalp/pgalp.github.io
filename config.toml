@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "/"
 languageCode = "en-us"
-title = "Okkur - Syna"
+title = "Snehapoorvam Collector -Alappuzha"
 theme = "syna"
 enableGitInfo = true
 version = "0.17.3"
@@ -24,8 +24,8 @@ lastmod = ["lastmod", ":git", "date"]
      unsafe = true
 
 [params]
-  name = "Okkur Labs"
-  description = "Open Source Theme for your next project"
+  name = "IT Mission Alappuzha"
+  description = "Kerala State IT Mission"
 
   [params.style]
     #background = "secondary"
@@ -78,28 +78,34 @@ disableJS = false
   weight = 10
 
 [[menu.main]]
+  url = "/workflow"
+  name = "Work Flow"
+  weight = 30
+
+
+[[menu.main]]
   url = "/about"
   name = "About Us"
   weight = 20
 
 [[menu.main]]
-  url = "#contact"
-  name = "Contact"
+  #url = "#contact"
+  #name = "Contact"
+  #weight = 30
+
+[[menu.footer]]
+  url = "https://edistrict.kerala.gov.in/"
+  name = "eDistrict"
   weight = 30
 
 [[menu.footer]]
-  url = "#"
-  name = "Link"
-  weight = 10
-
-[[menu.footer]]
-  url = "#"
-  name = "Long Link"
+  url = "https://itmission.kerala.gov.in/"
+  name = "Kerala State IT Mission"
   weight = 30
 
 [[menu.footer]]
-  url = "#"
-  name = "Tiny Link"
+  url = "/docs"
+  name = "Docs"
   weight = 30
 
 [[menu.copyright_footer]]
@@ -109,17 +115,17 @@ disableJS = false
 
 [[menu.copyright_footer]]
   url = "#"
-  name = "Another Link"
+  #name = "Another Link"
   weight = 30
 
 [[menu.footer_social]]
-  weight = 20
-  name = "facebook"
-  pre = "fab fa-facebook-f"
-  url = "#"
+  weight = 30
+  name = "github"
+  url = "https://github.com/pgalp"
+  pre = "fab fa-github "
 
 [[menu.footer_social]]
   weight = 30
-  name = "linkedin"
-  pre = "fab fa-linkedin-in"
+  name = "Open Source"
+  pre = "fab fa-osi "
   url = "#"

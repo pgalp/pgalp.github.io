@@ -6,13 +6,13 @@ weight = 1100
 #background = "light"
 form_name = "defaultContact"
 
-title = "Contact fragment"
-subtitle  = "*not working on demo page*"
+#title = "Contact fragment"
+#subtitle  = "*not working on demo page*"
 
 # PostURL can be used with backends such as mailout from caddy
-post_url = "https://example.com/mailout" #default: formspree.io
-email = "mail@example.com"
-button = "Send Button" # defaults to theme default
+#post_url = "https://example.com/mailout" #default: formspree.io
+#email = "mail@example.com"
+#button = "Send Button" # defaults to theme default
 #netlify = false
 
 # Optional google captcha
@@ -25,27 +25,27 @@ button = "Send Button" # defaults to theme default
 
 # Only defined fields are shown in contact form
 [fields.name]
-  text = "Your Name *"
+  #text = "Your Name *"
   #error = "" # defaults to theme default
 
 [fields.email]
-  text = "Your Email *"
+  #text = "Your Email *"
   #error = "" # defaults to theme default
 
 [fields.phone]
-  text = "Your Phone *"
+  #text = "Your Phone *"
   #error = "" # defaults to theme default
 
 [fields.message]
-  text = "Your Message *"
+  #text = "Your Message *"
   #error = "" # defaults to theme default
 
 # Optional hidden form fields
 # Fields "page" and "site" will be autofilled
 [[fields.hidden]]
-  name = "page"
+  #name = "page"
 
 [[fields.hidden]]
-  name = "someID"
-  value = "example.com"
+  #name = "someID"
+  #value = "example.com"
 +++

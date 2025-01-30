@@ -1,34 +1,34 @@
 +++
 fragment = "hero"
 #disabled = true
-date = "2016-09-07"
-weight = 50
+date = "2021-09-01"
+weight = 10
 background = "light" # can influence the text color
-particles = true
+particles = false
 
-title = "Syna Theme"
-subtitle = "Showcase your next project"
+title = " സ്നേഹപൂർവ്വം കളക്ടർ"
+subtitle = ""
 
 [header]
   image = "header.jpg"
 
 [asset]
-  image = "logo.svg"
-  width = "500px" # optional - will default to image width
+  #image = ""
+  #width = "500px" # optional - will default to image width
   #height = "150px" # optional - will default to image height
 
 [[buttons]]
-  text = "Button"
-  url = "#"
-  color = "info" # primary, secondary, success, danger, warning, info, light, dark, link - default: primary
+  text = "Features"
+  url = "#features"
+  color = "success" # primary, secondary, success, danger, warning, info, light, dark, link - default: primary
 
 [[buttons]]
-  text = "Download"
-  url = "https://github.com/okkur/syna/releases"
-  color = "primary"
+  text = "Track Grievance status"
+  url = "https://edistrict.kerala.gov.in/openSearch.do?openStat=openSearch&lang=en"
+  color = "success"
 
 [[buttons]]
-  text = "Button"
+  text = "Documentation/Tutorials"
   url = "#"
   color = "success"
 +++

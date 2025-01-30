@@ -1,17 +1,17 @@
 +++
 fragment = "nav"
 #disabled = true
-date = "2018-05-17"
+date = "2021-09-01"
 weight = 0
 #background = ""
 
 [repo_button]
-  url = "https://github.com/okkur/syna"
+  url = "https://github.com/pgalp"
   text = "Star" # default: "Star"
   icon = "fab fa-github" # defaults: "fab fa-github"
 
 # Branding options
 [asset]
-  image = "logo.svg"
-  text = "Syna"
+  #image = "logo.svg"
+  #text = ""
 +++
