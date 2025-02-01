@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "/"
 languageCode = "en-us"
-title = "Snehapoorvam Collector -Alappuzha"
+title = "Snehapoorvam Collector -Alappuzha Dist. Collector's Online Public Grievance Redressal System"
 theme = "syna"
 enableGitInfo = true
 version = "0.17.3"
